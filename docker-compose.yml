@@ -1,0 +1,7 @@
+version: "3.8"
+
+services:
+  snmp_generator:
+    image: prom/snmp-generator:latest
+    volumes:
+       - $PWD:/opt

@@ -1,0 +1,14 @@
+modules:
+  apc:
+    walk:
+      -  rPDUIdentDevicePowerVA #  .1.3.6.1.4.1.318.1.1.12.1.18 => power in VA
+    version: 1
+    auth:
+      community: my-community
+  
+  apc_10000:
+    walk:
+      -  pduInputPhaseStatusTable
+    version: 2
+    auth:
+      community: my-community
